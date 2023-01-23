@@ -36,7 +36,25 @@
 ```
 rest time :D
 
-간단한 파일 입·출력 해보기
+◾ 간단한 파일 입·출력 해보기
+
+<보조스트림 활용>
+────────────────────────────────────
+OutputStream | FileOutputStream 사용
+Writer | OutputStreamWriter 사용
+- write(), flush(), close()
+────────────────────────────────────
+InputStream | FileInputStream 사용
+Reader | InputStreamReader 사용
+────────────────────────────────────
+
+◾ 함수형으로 파일 입·출력 분리
+char타입 변환 과정 없애기
+────────────────────────────────────
+BufferedReader 사용
+[Reader에 BufferedReader연결]
+- readLine() 
+────────────────────────────────────
 ```
 
 
